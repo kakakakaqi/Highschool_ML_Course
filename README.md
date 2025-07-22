@@ -42,7 +42,7 @@ A Machine Learning course specifically for highschool students based on the USAA
   - 3.6 k-Nearest Neighbors  
   - 3.7 K-Means Clustering  
   - 3.8 Support Vector Machines  
-  - 3.9 Principal Component Analysis & Dimensionality Reduction  
+  - 3.9 Principal Component Analysis & Dimensionality Reduction (done)
   - 3.10 Decision Trees  
   - 3.11 Random Forests  
   - 3.12 Boosting  
@@ -58,15 +58,15 @@ A Machine Learning course specifically for highschool students based on the USAA
   - 4.8 Optimizers  
 
 - 5. Deep Learning & Computer Vision  
-  - 5.1 Multi-Layer Perceptron (MLP)  
+  - 5.1 Multi-Layer Perceptron (MLP) (done)
   - 5.2 Forward Propagation & Activation Functions  
   - 5.3 Backpropagation & Gradient Descent  
   - 5.4 Adam & Other Adaptive Optimizers  
   - 5.5 Parameter Initialization  
   - 5.6 Batch Normalization  
   - 5.7 Dropout  
-  - 5.8 Convolutional Layers & Pooling Layers  
-  - 5.9 Convolutional Neural Networks (CNNs)  
+  - 5.8 Convolutional Layers & Pooling Layers (done)
+  - 5.9 Convolutional Neural Networks (CNNs) (done)
   - 5.10 Image Data Augmentation  
   - 5.11 VGG  
   - 5.12 ResNet  
