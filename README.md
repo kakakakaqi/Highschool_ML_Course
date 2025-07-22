@@ -58,9 +58,9 @@ A Machine Learning course specifically for highschool students based on the USAA
   - 4.8 Optimizers  
 
 - 5. Deep Learning & Computer Vision  
-  - 5.1 Multi-Layer Perceptron (MLP) (done)
+  - 5.1 Multi-Layer Perceptron (MLP)
   - 5.2 Forward Propagation & Activation Functions  
-  - 5.3 Backpropagation & Gradient Descent  
+  - 5.3 Backpropagation & Gradient Descent (done)
   - 5.4 Adam & Other Adaptive Optimizers  
   - 5.5 Parameter Initialization  
   - 5.6 Batch Normalization  
