@@ -1,4 +1,5 @@
 # Seeing the world - Convolutional Neural Networks
+* Gordon.H | SHSID Data Science Group
 
 *Welcome back to the course, Junior ML Engineers !*
 
