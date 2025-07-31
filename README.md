@@ -1,5 +1,6 @@
 # Highschool_ML_Course
 A Machine Learning course specifically for highschool students based on the USAAIO course provided by Beaver-Edge AI.
+**IMPORTANT**:**If you want best experience please download the whole repo and run the ipynb for visualization!!!**
 ---
 ## Table Of Content
 - 0. Prerequisites  
