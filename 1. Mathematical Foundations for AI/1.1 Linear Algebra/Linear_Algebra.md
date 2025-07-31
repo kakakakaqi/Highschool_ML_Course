@@ -191,6 +191,7 @@ The equivalent linear system is
 $$\begin{cases} x + 2y - 4z = 5 \\ -3y + 2z = -2 \\ -2z = -1 \end{cases}$$
 
 How is this done? This is an example to show the process. We name the $i$th row as $R_i$, the $i$th column as $C_i$, and $M_{i,j}$ the value in the $i$th row and the $j$th column. we start with $i=1$ and end at $i=n$, which is the number of rows the matrix has. Define constant $k\in \mathbb{R}$.
+
 $$
 \left[
 \begin{array}{rrr|r}
@@ -200,7 +201,9 @@ $$
 \end{array}
 \right]
 $$
+
 We first scale $R_i$ such that $M_{i,i}=1$. 
+
 $$
 \left[
 \begin{array}{rrr|r}
@@ -210,7 +213,9 @@ $$
 \end{array}
 \right]
 $$
+
 We add $k \cdot R_i$ to all $R_j$ with $j>i$ such that $M_{j,i} = 0$.
+
 $$
 \left[
 \begin{array}{rrr|r}
@@ -220,7 +225,9 @@ $$
 \end{array}
 \right]
 $$
+
 We repeat the process on the next $i$. Here $i=2$, so we scale the second row such that $M_{i,i}=1$.
+
 $$
 \left[
 \begin{array}{rrr|r}
@@ -230,7 +237,9 @@ $$
 \end{array}
 \right]
 $$
+
 We then add a multiple of $R_2$ to all rows under it such that the second element of each such row becomes $0$. Here, we add $4\cdot R_2$ to $R_3$.
+
 $$
 \left[
 \begin{array}{rrr|r}
@@ -240,7 +249,9 @@ $$
 \end{array}
 \right]
 $$
+
 We then repeat the process for the last row.
+
 $$
 \left[
 \begin{array}{rrr|r}
@@ -250,7 +261,9 @@ $$
 \end{array}
 \right]
 $$
+
 We now have a upper triangular matrix that can be easily used to find the solutions of the initial linear equation system. To solve the system, we essentially need to find $M_{ij}$ where $i=j$. Starting with $i=n$, we reverse the process. We take $k\cdot R_i$ and add it to all $R_j$ with $j<i$ such that $M_{j,i} = 0$.
+
 $$
 \left[
 \begin{array}{rrr|r}
@@ -260,7 +273,9 @@ $$
 \end{array}
 \right]
 $$
+
 We repeat for $i=n-1$.
+
 $$
 \left[
 \begin{array}{rrr|r}
@@ -284,6 +299,7 @@ After this has been done to all rows:
 2. move to the next $i$ by subtracting $1$
 
 A psuedo code:
+
 $$
 \begin{aligned}
 &\textbf{Pseudocode for Gaussian Elimination:} \\
