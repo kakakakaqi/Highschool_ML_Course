@@ -1,6 +1,6 @@
 <div align="center">
   
-# Tensors
+# Autograd
 ##### **Jerry Zhang** | SHSID Data Science Club
 
 <div align="left">
