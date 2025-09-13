@@ -26,8 +26,14 @@ In order to understand this lesson, you would have a grasp of the following key 
 - **Weights**: aka Coefficients. It's one piece of data stored in a neuron that determines the feature's influence to the prediction. The influence is usually multiplication, so multiplying by a small number may mean a smaller influence, and vice versa. 
 - **Biases**: aka Intercepts. Also stored in a neuron, it's a constant data that changes the baseline representiation. Weights change something based on what's given; biases change a constant amount regardless. 
 - **Loss**: aka Cost. It's the difference between an erroneous output and the expected output, useful in training models. The goal of training is to minimize this function via changing the weights and biases of each neuron in each layer. 
-- **Gradient descent**: An optimization that allows us to find out by what magnitude do we need to change the information within our neurons to make the loss minimized. Through iteration, it adjusts the parameters in the opposite direction of the gradient. 
-- **Sigmoid**: A special function that compresses all input values into a range between 0 and 1. The key differentiator between linear and logistic. 
+- **Gradient descent**: An optimization that allows us to find out by what magnitude do we need to change the information within our neurons to make the loss minimized. You'll learn more about this later on in Chapter 5. Through iteration, it adjusts the parameters in the opposite direction of the gradient. 
+- **Sigmoid**: A special function that compresses all input values into a range between 0 and 1. The key differentiator between linear and logistic.
+
+<img align="left" width="270" height="170" alt="Linear vs Logistic" src="https://github.com/user-attachments/assets/32268bcc-9bb0-4f39-97ac-02ee84b74d2b" />
+
+<img align="center" width="350" height="200" alt="Classification vs Regression" src="https://github.com/user-attachments/assets/d84d6158-be14-479f-b9c4-483d11fb14d8" />
+
+<img align="right" width="200" height="700" alt="Gradient descent summary" src="https://github.com/user-attachments/assets/3f947b17-8f0a-42f9-a476-984acfdbed19" />
 
 <div align="center">
   
@@ -92,7 +98,7 @@ For our model to give us a decision instead of a number, we have to setup a deci
 
 Because our predictions are now probabilities, the traditional loss function for most models, Mean-Squared Error, is no longer the best loss function. Instead, logistic regression uses a loss function called **binary cross-entropy** (or los loss). It heavily "punishes" the model when it makes a confident but incorrect prediction. For example, if the model predicts a 99% chance of a cat who is actually a dog, the loss will be very high and the model will be severely "punished". 
 
-Apart from this, the rest can be basically the same. They both use concepts such as chain rule and gradient descent to calculate the specific neurons, magnitude, and direction of change. 
+Apart from this, the rest can be basically the same. They both use concepts such as chain rule and gradient descent to calculate the specific neurons, magnitude, and direction of change (which you'll learn about later on in detail, but the high-level differences are these). 
 
 <div align="center">
 
